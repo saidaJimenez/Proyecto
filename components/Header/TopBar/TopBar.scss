@@ -1,0 +1,41 @@
+.top-bar{
+    height: 100px;
+    background-color:$font-marron;
+
+    .ui.grid{
+        margin:0;
+        padding: 0;
+        .column {
+            padding:0;
+        }
+        
+    }
+    &__left{
+        display:flex !important;
+        align-items: center;
+        img{
+            height: 100px;
+            transition: all 0.5s;
+        
+        &:hover{
+            transform:translateX(-10px);
+        }
+        
+        }
+    }
+
+    &__right {
+        display: flex !important;
+        align-items:center;
+        justify-content: flex-end;
+    .ui.input{
+        align-items:center;
+
+        input{
+            background-color: transparent !important;
+
+        }
+    } 
+    }
+}
+
